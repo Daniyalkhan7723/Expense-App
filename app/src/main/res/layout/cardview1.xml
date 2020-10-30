@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_85sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/cardview"
+    app:cardElevation="3dp"
+    app:cardCornerRadius="15dp"
+    app:cardUseCompatPadding="true"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:text="Your Income"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:textSize="@dimen/_15ssp"
+            android:textColor="@android:color/black"
+            />
+
+        <ImageView
+            android:id="@+id/plusActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginRight="29dp"
+            android:src="@drawable/plus"
+
+            />
+        <TextView
+            android:id="@+id/pkr1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text1"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:text="PKR"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/money2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text1"
+            android:layout_marginLeft="@dimen/_10ssp"
+            android:layout_toRightOf="@+id/pkr1"
+            android:text="40,000"
+            android:textColor="@color/backgroundColor"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

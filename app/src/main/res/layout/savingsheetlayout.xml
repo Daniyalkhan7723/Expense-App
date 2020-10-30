@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="#F8FEFF"
+    android:padding="@dimen/_16sdp"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:id="@+id/finish2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_clear_24"
+        android:layout_gravity="end"
+
+        />
+    <Button
+        android:transitionName="transition_addsaving"
+        android:id="@+id/addsaving"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="Add Saving"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_12sdp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/popupbutoon"
+        >
+
+    </Button>
+    <Button
+        android:id="@+id/editsaving"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:text="Edit Saving"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_12sdp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/popupbutoon"
+        android:layout_marginTop="@dimen/_15sdp"
+        >
+    </Button>
+    
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="@dimen/_16sdp"
+    android:background="#F8FEFF"
+    android:maxHeight="500dp"
+    android:orientation="vertical"
+    android:transitionName="transition_addIncome"
+    android:id="@+id/frame1"
+
+    >
+     <ImageView
+         android:id="@+id/finish"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/ic_baseline_clear_24"
+         android:layout_gravity="end"
+
+         />
+        <Button
+            android:id="@+id/addincome"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:text="Add Income"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/popupbutoon"
+            android:transitionName="transition_addincome"
+            >
+
+        </Button>
+        <Button
+            android:id="@+id/editIncome"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:text="Edit Income"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/popupbutoon"
+            android:transitionName="transition_editIncome"
+            android:layout_marginTop="@dimen/_15sdp"
+            >
+        </Button>
+    </LinearLayout>
+
